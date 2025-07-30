@@ -68,10 +68,10 @@ Todas las peticiones a la API deben incluir el siguiente header:
 
 EuroreAPIkey: "Clave indicada"
 
-> [WARNING!]
+> [!WARNING]
 > Consultar con el Administrador las credenciales a usar.
 
-> [WARNING!]
+> [!WARNING!]
 > Solicita la API Key al **administrador del sistema**.
 > Sin este header, la API rechazará la solicitud con un **401 Unauthorized**.
 
