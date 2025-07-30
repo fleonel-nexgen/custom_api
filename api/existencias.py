@@ -6,7 +6,7 @@ from core.security import validate_api_key
 router = APIRouter()
 
 
-@router.get("/existencias", response_model=ExistenciasResponse)
+@router.get("", response_model=ExistenciasResponse)
 def listar_existencias(api_key: str = Depends(validate_api_key)):
     try:
         data = get_existencias()
